@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom Style */
+
+body {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.padding {
+  padding: .3rem 0.5rem;
+}
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-items {
+  align-items: center;
+}
+.center {
+  text-align: center;
+}
+nav {
+  background-color: transparent;
+  box-shadow: 0 10px 3px grey;
+ 
+}
+.brand {
+  font-size: 1.7rem;
+  color: black;
+
+  padding: 0.3rem 0.5rem;
+}
+.brand:hover {
+  background-color: black;
+  color: white;
+  padding: 0.3rem 0.5rem;
+}
+ul li {
+  padding: 0.3rem 0.4rem;
+}
+ul li a {
+  font-size: 1.2rem;
+  padding: 0.4rem 0.5rem;
+  color: black;
+}
+ul li a:hover {
+  background-color: cadetblue;
+}
+.header {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.btn-index {
+  font-size: 1.2rem;
+  padding: 0.4rem 0.6rem;
+  background-color: thistle;
+  border-radius: 0.4rem;
+}
+.form {
+  margin-top: 1rem;
+}
+.form-control {
+  width: 50%;
+  margin: 0 auto;
+}
+.form-header {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.form-control input {
+  width: 85%;
+  margin: 0.3rem 0;
+  padding: 0.3rem 0.4rem;
+  border: 0;
+}
+.form-control label {
+  font-size: 1.2rem;
+  color: crimson;
+  border-bottom: 1px solid black;
+  padding: 0.3rem 0;
+}
